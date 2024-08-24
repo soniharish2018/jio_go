@@ -15,4 +15,4 @@ COPY . .
 RUN wget https://example.com/somefile && bash your_script.sh
 
 # Specify the command to run when the container starts
-CMD ["pwd"]
+CMD ["wget", "https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linux-arm64"]
