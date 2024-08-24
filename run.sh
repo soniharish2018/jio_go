@@ -1,1 +1,3 @@
 echo "Running"
+
+mkdir public
