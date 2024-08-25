@@ -12,4 +12,4 @@
 # echo "Run"
 # ./jiotv run
 
-sh https://jiotv_go.rabil.me/install.sh
+sh install.sh
