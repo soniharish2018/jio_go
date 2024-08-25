@@ -1,0 +1,27 @@
+name: Run Dockerfile
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-dockerfile:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Build the Docker image
+      - name: Build Docker image
+        run: docker build -t my-simple-image .
+
+      # Run the Docker container
+      - name: Run Docker container
+        run: docker run --rm my-simple-image
+        
