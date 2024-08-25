@@ -17,4 +17,4 @@ COPY . .
 
 CMD ["sh", "run.sh"]
 
-CMD ["./jtv", "run"]
+RUN ./jtv run
