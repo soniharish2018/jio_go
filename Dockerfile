@@ -16,5 +16,3 @@ COPY . .
 # Specify the command to run when the container starts
 
 CMD ["sh", "run.sh"]
-
-RUN ./jtv run

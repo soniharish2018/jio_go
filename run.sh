@@ -21,3 +21,9 @@ wget https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linu
 mv jiotv_go-linux-amd64 jtv
 
 chmod +x jtv
+
+apt-get install nodejs -y
+
+npm install pm2
+
+pm2 start "./jtv run"
