@@ -22,4 +22,4 @@ mv jiotv_go-linux-amd64 jtv
 
 chmod +x jtv
 
-./jtv
+./jtv run
