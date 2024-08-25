@@ -30,7 +30,7 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm -v
 
-nvm list
+nvm list-remote
 
 node -v
 
