@@ -15,4 +15,4 @@ COPY . .
 
 # Specify the command to run when the container starts
 
-CMD ["wget", "https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linux-arm64","&&","chmod","+x","jiotv_go-linux-arm64","&&","./jiotv_go-linux-arm64", "run"]
+CMD ["sh", "run.sh"]

@@ -2,6 +2,8 @@ echo "Running"
 
 wget https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linux-arm64
 
+mv jiotv_go-linux-arm64 jiotv
 
-mkdir public
-cp index.html public 
+chmod +x jiotv
+
+./jiotv run
