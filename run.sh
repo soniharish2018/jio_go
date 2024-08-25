@@ -12,4 +12,4 @@
 # echo "Run"
 # ./jiotv run
 
-curl -fsSL https://jiotv_go.rabil.me/install.sh | bash
+sh https://jiotv_go.rabil.me/install.sh
