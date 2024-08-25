@@ -16,7 +16,4 @@ echo "NAME>....."
 
 uname -m
 
-sudo apt install curl
-
-
 curl -fsSL https://jiotv_go.rabil.me/install.sh | bash
