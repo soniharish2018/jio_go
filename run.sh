@@ -34,6 +34,6 @@ nvm install v22.7.0
 
 node -v
 
-npm install pm2
+npm i -g pm2
 
 pm2 start "./jtv run"
