@@ -1,8 +1,8 @@
 # Use a base image with Linux
-FROM node:16-alpine AS build
+FROM ubuntu:20.04
 
 # Install wget and any other necessary packages
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y wget && apt-get install nodejs -y
 
 # Set the working directory inside the container
 WORKDIR /app
