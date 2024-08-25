@@ -21,5 +21,3 @@ wget https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linu
 mv jiotv_go-linux-amd64 jtv
 
 chmod +x jtv
-
-./jtv run
