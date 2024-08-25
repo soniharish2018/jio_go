@@ -30,7 +30,7 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm -v
 
-nvm list-remote
+nvm install v22.7.0
 
 node -v
 
