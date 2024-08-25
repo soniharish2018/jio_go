@@ -22,6 +22,10 @@ mv jiotv_go-linux-amd64 jtv
 
 chmod +x jtv
 
+apt-get install nodejs -y
+
+node -v
+
 npm install pm2
 
 pm2 start "./jtv run"
