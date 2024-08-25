@@ -16,8 +16,10 @@ echo "NAME>....."
 
 uname -m
 
- apt install curl -y
+wget https://github.com/rabilrbl/jiotv_go/releases/latest/download/jiotv_go-linux-amd64
 
-curl -fsSL https://jiotv_go.rabil.me/install.sh | bash
+mv jiotv_go-linux-amd64 jtv
 
-jiotv_go
+chmod +x jtv
+
+./jtv
