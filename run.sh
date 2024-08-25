@@ -12,4 +12,6 @@
 # echo "Run"
 # ./jiotv run
 
-sh install.sh
+echo "NAME>....."
+
+uname -m
